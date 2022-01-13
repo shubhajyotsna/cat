@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="NewStylesheet.xsl"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="busxsd.xsd">
+  <Employee>
+    <Emp-Id>101</Emp-Id>
+    <Emp-name>Alex</Emp-name>
+    <Emp-age>35</Emp-age>
+    <Emp-salary>55000</Emp-salary>
+    <Emp-emailid>alex@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9709778856</Emp-Phonenum>
+    <Emp-designation>Manager</Emp-designation>
+  </Employee>
+   <Employee>
+    <Emp-Id>100</Emp-Id>
+    <Emp-name>Harsh</Emp-name>
+    <Emp-age>55</Emp-age>
+    <Emp-salary>60000</Emp-salary>
+    <Emp-emailid>harsh@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9977885611</Emp-Phonenum>
+    <Emp-designation>Team Lead</Emp-designation>
+  </Employee>
+     <Employee>
+     <Emp-Id>103</Emp-Id>
+    <Emp-name>Aniket</Emp-name>
+    <Emp-age>45</Emp-age>
+    <Emp-salary>70000</Emp-salary>
+    <Emp-emailid>ani123@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9430341226</Emp-Phonenum>
+    <Emp-designation>Manager</Emp-designation>
+  </Employee>
+ <Employee>
+ <Emp-Id>104</Emp-Id>
+    <Emp-name>Riya</Emp-name>
+    <Emp-age>36</Emp-age>
+    <Emp-salary>100000</Emp-salary>
+    <Emp-emailid>Ria@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9412102831</Emp-Phonenum>
+    <Emp-designation>Developer</Emp-designation>
+  </Employee>
+   <Employee>
+   <Emp-Id>106</Emp-Id>
+    <Emp-name>Ileen</Emp-name>
+    <Emp-age>47</Emp-age>
+    <Emp-salary>65000</Emp-salary>
+    <Emp-emailid>Xaxa@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9780837383</Emp-Phonenum>
+    <Emp-designation>Associate</Emp-designation>
+  </Employee>
+ <Employee>
+ <Emp-Id>108</Emp-Id>
+    <Emp-name>Stuti</Emp-name>
+    <Emp-age>39</Emp-age>
+    <Emp-salary>80000</Emp-salary>
+    <Emp-emailid>stu123@gmail.com</Emp-emailid>
+    <Emp-Phonenum>6789012345</Emp-Phonenum>
+    <Emp-designation>Associate</Emp-designation>
+  </Employee>
+</Company>
+  <Buses>
+    <Bus_ID>107</Bus_ID>
+    <Bus_type>AC</Bus_type>
+    <Agency>Mukkod travel Agency</Agency>
+    <Seating_Capacity>40</Seating_Capacity>
+  </Buses>
+  <Buses>
+    <Bus_ID>108</Bus_ID>
+    <Bus_type>AC</Bus_type>
+    <Agency>RV travels</Agency>
+    <Seating_Capacity>40</Seating_Capacity>
+  </Buses>
+</Busbooking>

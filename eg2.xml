@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" 
+xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+	<xsl:template match="/">
+		<!-- TODO: Auto-generated template -->
+		<html>
+		<head>
+		</head>
+		<body>
+		<h1 style="text-align:center">Employee Management System</h1>
+                <h2 style="text-align:center">Employee</h2>
+		<table border="2" align="center">
+		<tr bgcolor="#ECB0A3">
+		<th>Emp-Id</th>
+		<th>Emp-name</th>
+		<th>Emp-age</th>
+        <th>Emp-salary</th>
+		<th>Emp-emailid</th>
+		<th>Emp-Phonenum</th>
+		<th>Emp-designation</th>
+		</tr>
+		<xsl:for-each select="Company/Employee">
+		<xsl:sort select="Emp-Id"></xsl:sort>
+		<tr>
+		<td>
+		<xsl:value-of select="Emp-Id"></xsl:value-of>
+		</td>
+		<td>
+		<xsl:value-of select="Emp-name"></xsl:value-of>
+		</td>
+		<td>
+		<xsl:value-of select="Emp-age"></xsl:value-of>
+		</td>
+		<td>
+		<xsl:value-of select="Emp-salary"></xsl:value-of>
+		</td>
+                <td>
+		<xsl:value-of select="Emp-emailid"></xsl:value-of>
+		</td>
+		      <td>
+		<xsl:value-of select="Emp-Phonenum"></xsl:value-of>
+		</td>
+		      <td>
+		<xsl:value-of select="Emp-designation"></xsl:value-of>
+		</td>
+		</tr>
+		</xsl:for-each>
+		</table>
+		</body>
+		</html>
+	</xsl:template>
+</xsl:stylesheet>
