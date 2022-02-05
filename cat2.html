@@ -82,7 +82,8 @@ DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DT
                 <span></span>
             </div>
             <br />  
-            <button class="btn btn-primary" onclick="setCookie()">Set Cookie1</button>        
+            <button class="btn btn-primary" onclick="setCookie()">Set Cookie1</button>
+            <button class="btn btn-primary" onclick="setCookie1()">Set Cookie1</button>        
 
       <!----     <div class="form-set">
                 <label class="q1" style="text-transform: none;">Q1. What are the things that you like about the institute ? </label>
@@ -417,28 +418,19 @@ phn.onkeyup = function() {
         span[8].style.color = "green";
     }
 }
+
+function setCookie()
+       {
+         cookievalue = document.myform.phone.value + ";"
+         document.cookie="phone"+ cookievalue;
+      
+       }
 function setCookie1()
-        {
-            var now = new Date();
-            now.setMonth( now.getMonth() + 1 );
-        
-            cookievalue = document.myform.phone.value + ";"
-            document.cookie="phone = " + cookievalue;
-        
-            document.cookie = "expires=" + now.toUTCString() + ";"
-            alert("Cookies got Added!");
-        }
-function setCookie1()
-        {
-            var now = new Date();
-            now.setMonth( now.getMonth() + 1 );
-        
-            cookievalue = document.myform.email.value + ";"
-            document.cookie="email = " + cookievalue;
-        
-            document.cookie = "expires=" + now.toUTCString() + ";"
-            alert("Cookies got Added!");
-        }
+       {
+         cookievalue = document.myform.email.value + ";"
+         document.cookie="email"+ cookievalue;
+      
+       }
 
 //validate question 1
 q1.onclick = function() {}
