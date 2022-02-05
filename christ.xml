@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Christ>
+    <Computer-Science>
+        <Stu-Name>Aniket</Stu-Name>
+        <Stu-University>Christ University</Stu-University>
+        <Stu-phone>9709778856</Stu-phone>
+        <Stu-Email>Aniket@christuniversity.in</Stu-Email>
+      </Computer-Science>
+      <Computer-Science>
+      <Stu-Name>Riya</Stu-Name>
+        <Stu-University>Reva University</Stu-University>
+        <Stu-phone>9977881234</Stu-phone>
+        <Stu-Email>Riya@RevaUniversity.com</Stu-Email>
+      </Computer-Science>
+     <Computer-Science>
+        <Stu-Name>Aman</Stu-Name>
+        <Stu-University>Kristu Jyanti College</Stu-University>
+        <Stu-phone>9876543234</Stu-phone>
+        <Stu-Email>Aman@kristujayanti.com</Stu-Email>
+      </Computer-Science>
+</Christ> 
